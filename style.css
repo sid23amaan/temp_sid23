@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif,'Times New Roman', Times, serif;
+}
+.nav{
+    font-size: larger;
+    height: 10vh;
+    border: solid crimson 2px;
+    border-radius: 20px;
+    background-color: rgb(255, 246, 120);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoname_and_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoname_and_banner h3{
+    padding: 2px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+}
+.link a {
+    padding :11px 14px;
+    margin: auto;
+}
+.link a:hover{
+    border: 4px seagreen solid ;
+    border-radius: 20px;
+    background-color: azure;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    margin: 10px 12px 6px;
+}
+.logo img{
+    border: black 2px solid;
+    width: 50px;
+    border-radius: 20px;
+}
+
+
+.container{
+    border: black 2px solid;
+    height: 80vh;
+    margin: 10px 20%;
+    border-radius: 30px;
+    background-color: lightsalmon;
+}
+.cal{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.cal label{
+    font-family: 'Fasthand', cursive;
+    padding: 10px;
+    font-size: xx-large;
+}
+.cal input{
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+}
+.cal button{
+    background-color: blueviolet;
+    border: black 2px solid;
+    border-radius: 6px; 
+    padding: 5px;
+    margin: 10px;
+}
+ .cal button:hover{
+    background-color: rgb(135, 152, 222);
+    cursor: pointer;
+    border: 2px solid red;
+}
+.formula{
+    display: flex;
+    font-family: 'Fasthand',cursive;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+.formula h2{
+    margin:20px;
+}            
+/* footer */
+.footer{
+    width: 100%;
+}
+.footer_section1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
